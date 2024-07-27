@@ -5,17 +5,19 @@ meta {
 }
 
 post {
-  url: {{PATH}}libros
+  url: {{PATH}}/loans
   body: json
   auth: none
 }
 
 body:json {
   {
-    "titulo": "Principito",
-    "descripcion": "Una historia de pincipito",
-    "genero": "Fantasia",
-    "urlPdf": "https://www.imprentanacional.go.cr/editorialdigital/libros/literatura%20infantil/el_principito_edincr.pdf",
-    "idAutor": "50CABC16-EFC0-41E7-8CB9-E480C824D12D"
+    "name": "Patricia Alejandra.",
+    "montoprestamo": 8000000,
+    "tasacomicion": 0.50,
+    "tasainteres": 12.50,
+    "termino": 36,
+    "fecharembolso": "2024-08-01",
+    "fechaprimerpago": "2024-09-01"
   }
 }
