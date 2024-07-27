@@ -1,0 +1,22 @@
+[
+  {
+    "IdCliente": "c8d5bcae-044b-4c3d-85e0-6eae00e7d5c2", 
+    "Name": "Juan Perez",
+    "Montoprestamo": 10000,
+    "Tasacomision": 2,
+    "Tasainteres": 12,
+    "Termino": 24,
+    "Fechadesembolso": "2024-08-01T00:00:00",
+    "Fechaprimerpago": "2024-09-01T00:00:00"
+  },
+  {
+    "IdCliente": "b5e9f2f6-4e4a-4d36-bf9a-6d7cb76ef0e7", 
+    "Name": "Maria Gomez",
+    "Montoprestamo": 15000,
+    "Tasacomision": 1.5,
+    "Tasainteres": 10,
+    "Termino": 12,
+    "Fechadesembolso": "2024-07-01T00:00:00",
+    "Fechaprimerpago": "2024-08-01T00:00:00"
+  }
+]

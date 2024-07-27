@@ -13,10 +13,6 @@ namespace Examen_2_de_POO.Databases
 
         public DbSet<ClienteEntity> Clientes { get; set; }
         public DbSet<PlanamortizacionEntity> PlanamortizacionEntities { get; set; }
-    
     }
-
-
-
 }
-    }
+    

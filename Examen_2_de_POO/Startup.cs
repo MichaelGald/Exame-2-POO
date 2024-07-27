@@ -14,10 +14,13 @@ namespace Examen_2_de_POO
         {
             Configuration = configuration;
         }
-
+      
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddJsonOptions(opts =>
+            {
+                opts.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+            });
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
 
@@ -29,6 +32,7 @@ namespace Examen_2_de_POO
             // Configurar AutoMapper
             services.AddAutoMapper(typeof(AutoMapperProfile));
         }
+
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

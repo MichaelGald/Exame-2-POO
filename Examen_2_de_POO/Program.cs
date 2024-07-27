@@ -9,6 +9,7 @@ startup.Configure(app, app.Environment);
 // agregar el using
 
 
+
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;

@@ -1,0 +1,21 @@
+meta {
+  name: Create
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{PATH}}libros
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo": "Principito",
+    "descripcion": "Una historia de pincipito",
+    "genero": "Fantasia",
+    "urlPdf": "https://www.imprentanacional.go.cr/editorialdigital/libros/literatura%20infantil/el_principito_edincr.pdf",
+    "idAutor": "50CABC16-EFC0-41E7-8CB9-E480C824D12D"
+  }
+}

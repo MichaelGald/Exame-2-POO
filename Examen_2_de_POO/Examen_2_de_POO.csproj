@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="SeedData\cliente.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
@@ -24,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="SeedData\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

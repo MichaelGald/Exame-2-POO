@@ -1,0 +1,50 @@
+[
+  {
+    "PlanamortizacionId": 1,
+    "ClienteId": "c8d5bcae-044b-4c3d-85e0-6eae00e7d5c2",
+    "Numeroinstalacion": 1,
+    "Fechapago": "2024-09-01T00:00:00",
+    "Days": 31,
+    "Interes": 100,
+    "Principal": 400,
+    "PagoNivelSinSVSD": 500,
+    "PagoNivelSconSVSD": 510,
+    "Balanceprincipal": 9600
+  },
+  {
+    "PlanamortizacionId": 2,
+    "ClienteId": "c8d5bcae-044b-4c3d-85e0-6eae00e7d5c2",
+    "Numeroinstalacion": 2,
+    "Fechapago": "2024-10-01T00:00:00",
+    "Days": 30,
+    "Interes": 95,
+    "Principal": 405,
+    "PagoNivelSinSVSD": 500,
+    "PagoNivelSconSVSD": 510,
+    "Balanceprincipal": 9195
+  },
+  {
+    "PlanamortizacionId": 3,
+    "ClienteId": "b5e9f2f6-4e4a-4d36-bf9a-6d7cb76ef0e7",
+    "Numeroinstalacion": 1,
+    "Fechapago": "2024-08-01T00:00:00",
+    "Days": 31,
+    "Interes": 125,
+    "Principal": 1125,
+    "PagoNivelSinSVSD": 1250,
+    "PagoNivelSconSVSD": 1260,
+    "Balanceprincipal": 13750
+  },
+  {
+    "PlanamortizacionId": 4,
+    "ClienteId": "b5e9f2f6-4e4a-4d36-bf9a-6d7cb76ef0e7",
+    "Numeroinstalacion": 2,
+    "Fechapago": "2024-09-01T00:00:00",
+    "Days": 31,
+    "Interes": 120,
+    "Principal": 1130,
+    "PagoNivelSinSVSD": 1250,
+    "PagoNivelSconSVSD": 1260,
+    "Balanceprincipal": 12620
+  }
+]

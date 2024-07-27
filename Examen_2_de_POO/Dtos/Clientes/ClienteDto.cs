@@ -5,14 +5,15 @@ namespace Examen_2_de_POO.Dtos.Clientes
 {
     public class ClienteDto
     {
+        [Key]
+        public Guid IdCliente { get; set; }
         public string name { get; set; }
-        public virtual Guid IdCliente { get; set; }
         public decimal montoprestamo { get; set; }
         public decimal tasacomicion { get; set; }
         public decimal tasainteres { get; set; }
-        public string termino { get; set; }
-        public string fecharembolso { get; set; }
-        public string fechaprimerpago { get; set; }
-        public virtual PlanamortizacionEntity PlanamortizacionEntity { get; set; }
+        public int termino { get; set; }
+        public DateTime fecharembolso { get; set; }
+        public DateTime fechaprimerpago { get; set; }
+        public  List<PlanamortizacionEntity> PlanamortizacionEntity { get; set; }
     }
 }

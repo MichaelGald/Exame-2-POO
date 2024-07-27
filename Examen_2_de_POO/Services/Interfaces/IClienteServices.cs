@@ -8,7 +8,6 @@ namespace Examen_2_de_POO.Services.Interfaces
         Task<ResponseDto<List<ClienteDto>>> GetClienteListAsync();
         Task<ResponseDto<ClienteDto>> GetClienteByIdAsync(Guid Id);
         Task<ResponseDto<ClienteDto>> CreateClienteAsync(CreateClienteDto dto);
-        Task<ResponseDto<ClienteDto>> EditClienteByIdAsync(EditClienteDto dto, Guid Id);
-        Task<ResponseDto<ClienteDto>> DeleteClienteByIdAsync(Guid Id);
+
     }
 }

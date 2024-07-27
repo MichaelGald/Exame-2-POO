@@ -10,7 +10,7 @@ namespace Examen_2_de_POO.Dtos.Clientes
         [StringLength(100, ErrorMessage = "El cliente {0} no puede tener mas de {1}")]
         [Required(ErrorMessage = "El {0} es requerido")]
         public string name { get; set; }
-
+       
         [Required(ErrorMessage = "El {0} es requerido")]
         public decimal montoprestamo { get; set; }
 
@@ -21,10 +21,10 @@ namespace Examen_2_de_POO.Dtos.Clientes
         public decimal tasainteres { get; set; }
 
         [Required(ErrorMessage = "El {0} es requerido")]
-        public string termino { get; set; }
+        public int termino { get; set; }
 
-        public string fecharembolso { get; set; }
+        public DateTime fecharembolso { get; set; }
 
-        public string fechaprimerpago { get; set; }
+        public DateTime fechaprimerpago { get; set; }
     }
 }
